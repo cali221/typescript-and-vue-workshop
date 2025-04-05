@@ -1,7 +1,7 @@
 export const restaurantStatusList = [
   'Want to Try',
   'Recommended',
-  'Do Not Recommend'
+  'Do Not Recommend',
 ]
 
 export const dietList = [
