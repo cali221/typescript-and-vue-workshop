@@ -1,12 +1,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { PropType } from 'vue';
-
-type Dish = {
-  id: string
-  name: string
-  status: string
-}
+import type { PropType } from 'vue';
+import type { Dish } from '@/types';
 
 export default defineComponent({
   props: {
